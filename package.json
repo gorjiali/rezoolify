@@ -1,5 +1,9 @@
 {
-  "name": "rezoolify",
+  "name": "@gorjiali/rezoolify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gorjiali/rezoolify.git"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +11,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {},
   "peerDependencies": {
